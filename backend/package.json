@@ -1,0 +1,19 @@
+{
+  "name": "raffinata-sposa-api",
+  "version": "0.0.1",
+  "description": "Server API for Raffinata Sposa System Project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelo-sigo/raffinata-sposa.git"
+  },
+  "author": "Angelo Silva",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/angelo-sigo/raffinata-sposa/issues"
+  },
+  "homepage": "https://github.com/angelo-sigo/raffinata-sposa#readme"
+}
