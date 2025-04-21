@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Server API for Raffinata Sposa System Project.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/angelo-sigo/raffinata-sposa/issues"
   },
-  "homepage": "https://github.com/angelo-sigo/raffinata-sposa#readme"
+  "homepage": "https://github.com/angelo-sigo/raffinata-sposa#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
