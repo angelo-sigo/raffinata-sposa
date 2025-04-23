@@ -18,7 +18,7 @@ O sistema web visa modernizar a interação da loja com seus clientes, oferecend
 
 - [ ] **Conclusão do desenvolvimento da UI.**
 
-- [ ] **Conclusão da modelagem do banco de dados.**
+- [x] **Conclusão da modelagem do banco de dados.**
 
 - [ ] **Conclusão do desenvolvimento da API backend.**
 
@@ -31,16 +31,32 @@ O sistema web visa modernizar a interação da loja com seus clientes, oferecend
 ## ⚙️ Tecnologias Envolvidas
 
 Este projeto envolverá tecnologias de desenvolvimento web. As escolhas específicas de frameworks e bancos de dados serão detalhadas conforme o desenvolvimento avança, mas a estrutura geral incluirá:
+ 
+### Frontend:
 
-- **Frontend:** `JavaScript`, `React`, `Sass`.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
-- **Backend:** `Express`.
+### Backend: 
 
-- **Banco de Dados:** `MongoDB`
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![Mongoose](https://img.shields.io/badge/mongoose-%23880000.svg?style=for-the-badge&logo=mongoose&logoColor=white)
 
-- **Versionamento:** `Git`.
+### Banco de Dados:
 
-- **Gerenciamento de Dependências:** `npm`
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+
+### Testes:
+
+![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
+
+### Versionamento:
+
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
+### Gerenciamento de Dependências:
+
+![NPM](https://img.shields.io/badge/npm-%23BB2026.svg?style=for-the-badge&logo=npm&logoColor=white)
 
 ## ▶️ Como Começar
 
@@ -52,37 +68,33 @@ Para configurar o ambiente de desenvolvimento local, siga os passos do tutorial 
 git clone 'https://github.com/angelo-sigo/raffinata-sposa'
 ```
 
-2. Navegue até a pasta do projeto:
+2. Certifique-se de ter o `Node.js` e `npm` instalados.
+
+3. Instale as dependências do projeto:
 
 ```bash
-cd raffinata_sposa
+npm run setup
 ```
 
-3. Certifique-se de ter o `Node.js` e `npm` instalados.
-
-4. Instale as dependências do frontend:
-
-```bash
-cd frontend && npm install && cd ..
-```
-
-5. Instale as dependências do backend:
-
-```bash
-cd backend && npm install && cd ..
-```
-
-6. (Instruções adicionais virão aqui sobre como rodar o frontend e o backend localmente, uma vez que o código inicial estiver pronto)
+4. (Instruções adicionais virão aqui sobre como rodar o frontend e o backend localmente, uma vez que o código inicial estiver pronto)
 
 ## 🗃️ Estrutura do Projeto
 
 ```bash
-raffinata_sposa/
-├── backend/          # Código do servidor (API, lógica de negócio)
-│   └── package.json  # Gerenciador de dependências do backend
-├── docs/             # Documentação, scripts de banco de dados, etc.
-├── frontend/         # Código da interface do usuário (HTML, CSS, JS, assets)
-│   └── package.json  # Gerenciador de dependências do frontend
-├── .gitignore        # Arquivos/pastas a serem ignorados pelo Git
-└── README.md         # Descrição do projeto
+.
+├── README.md
+├── backend
+│   └── src
+│       ├── config
+│       │   ├── mongoose.config.js
+│       │   └── mongoose.test.js
+│       ├── controllers
+│       ├── middleware
+│       ├── models
+│       ├── routes
+│       └── services
+├── docs
+│   └── database_model.md
+├── frontend
+└── package.json
 ```

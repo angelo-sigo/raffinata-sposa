@@ -1,0 +1,22 @@
+{
+  "name": "raffinata-sposa",
+  "version": "0.0.1",
+  "description": "Web system for wedding dress store.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "setup": "npm install --prefix ./frontend && npm install --prefix ./backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelo-sigo/raffinata-sposa.git"
+  },
+  "author": "Angelo Silva",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/angelo-sigo/raffinata-sposa/issues"
+  },
+  "homepage": "https://github.com/angelo-sigo/raffinata-sposa#readme"
+}
